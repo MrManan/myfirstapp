@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/092d1fb05d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>CareerGuide</title>
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <section>
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-white shadow fixed-top"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand ms-3" href="#">CareerGuide</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto ms-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Explore
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown "
+                >
+                  <li>
+                    <a class="dropdown-item" href="#">Career Oppertunities</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Jobs Related</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Information</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Learn
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown"
+                >
+                  <li><a class="dropdown-item" href="#">C++</a></li>
+                  <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Node JS</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Practice
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Practices make men perfect</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="#">Work Hard</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="d-flex">
+                <button type="submit" class="btn btn-outline-primary">
+                  Apply
+                </button>
+                <button type="submit" class="btn btn-outline-success ms-2">
+                  SignUp/Login
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- Header -->
+    <section>
+      <div class="container-fluid">
+        <div class="row p-5">
+          <div class="col-md-1"></div>
+          <div class="col-md-5">
+            <button type="button" name="" id="" class="btn feature mt-5 mb-2">
+              Feature
+            </button>
+            <h1 class="text-dark">
+              Careers Guidence For International Students In
+              <span class="text-info">United Kingdom.</span>
+            </h1>
+            <p class="caption">Find jobs, employment & career oppertunities</p>
+            <div class="form-group d-flex p-2 shadow">
+              <span class="fw-bold fs-6 m-2">PAK</span>
+              <img
+                src="./assets/images/pk.svg"
+                class="country-img"
+                alt=""
+                srcset=""
+              />
+              <span class="fw-bold fs-5 text-black-50 ps-2">|</span
+              ><i
+                for="search"
+                class="fa-solid fa-magnifying-glass m-2 text-black-50"
+              ></i>
+              <input
+                type="text"
+                class="form-control"
+                id="search"
+                placeholder="Job, Company, Location"
+              />
+              <button type="submit" class="btn btn-outline-success ms-3">
+                Submit
+              </button>
+            </div>
+            <div class="candidates mt-5">
+              <div class="circles-gallery">
+                <span class="fw-bold text-dark fs-5 pe-5"
+                  >20k + Candidates</span
+                >
+                <img
+                  src="http://placeimg.com/300/300/tech"
+                  alt="Some Tech Picture"
+                />
+                <img
+                  src="http://placeimg.com/400/400/tech"
+                  alt="Some Tech Picture"
+                />
+                <img
+                  src="http://placeimg.com/500/500/tech"
+                  alt="Some Tech Picture"
+                />
+                <img
+                  src="http://placeimg.com/300/300/arch"
+                  alt="Some Architecture Picture"
+                />
+                <img
+                  src="http://placeimg.com/400/400/arch"
+                  alt="Some Architecture Picture"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2"></div>
+          <div class="col-md-4 header">
+            <div class="">
+              <img
+                src="./assets/images/man_PNG6531.png"
+                class="mt-4"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Steps section -->
+    <section id="steps">
+      <div class="container-fluid p-5">
+        <div
+          class="row justify-content-center align-content-center"
+          style="height: 70vh"
+        >
+          <h2 class="text-center text-dark">
+            Manage Your Job Application in 4 Steps
+          </h2>
+          <p class="text-center text-dark pb-4">
+            Content section built to demonstrate tbe process flow aspect of your
+            product
+          </p>
+          <div class="col-md-2"></div>
+          <div class="col-md-2">
+            <h1 class="text-center text-dark step1">1</h1>
+            <h5 class="text-center text-dark">Explore</h5>
+            <p class="text-center text-dark">
+              Career oppertunities available for you to apply now.
+            </p>
+          </div>
+          <div class="col-md-2">
+            <h1 class="text-center text-success step2">2</h1>
+            <h5 class="text-center text-dark">Learn</h5>
+            <p class="text-center text-dark">
+              About what recruiters look for in the PAK
+            </p>
+          </div>
+          <div class="col-md-2">
+            <h1 class="text-center text-dark step3">3</h1>
+            <h5 class="text-center text-dark">Practice</h5>
+            <p class="text-center text-dark">
+              Online tests, Interviews & Assessment Centers
+            </p>
+          </div>
+          <div class="col-md-2">
+            <h1 class="text-center text-success step4">4</h1>
+            <h5 class="text-center text-dark">Apply & Track</h5>
+            <p class="text-center text-dark">
+              Yout application and ask us for support
+            </p>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Career Interview section -->
+
+    <section id="interview">
+      <div class="container">
+        <div class="row justify-content-center align-content-center">
+          <div class="col-md-6">
+            <h3 class="text-center text-dark p-4">
+              We Support Your Journy With Robust Appications
+            </h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <header class="bg-dark">-</header>
+            <div class="shadow p-3">
+              <div class="row">
+                <div class="col-md-3">
+                  <img
+                    class="top-image"
+                    src="./assets/images/Humaaans - Sitting.png"
+                    alt=""
+                    srcset=""
+                  />
+                </div>
+                <div class="col-md-8">
+                  <span class="fw-bold">JOB INTERVIEW</span>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Inventore iste consectetur reiciendis at ut? Vel, dolores.
+                    Similique adipisci optio consectetur!
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <img
+                        class="bottom1-image"
+                        src="./assets/images/Humaaans - Sitting.png"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nam, aperiam.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <p class="ms-3">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nam, aperiam.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <img
+                        class="bottom1-image"
+                        src="./assets/images/Humaaans - Sitting.png"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nam, aperiam.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <p class="ms-3">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nam, aperiam.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button type="button" name="" id="" class="btn feature mt-4 mb-2">
+              Feature
+            </button>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-5">
+            <button type="button" name="" id="" class="btn feature">
+              Feature
+            </button>
+            <h1 class="text-dark mt-4">
+              Find Your Potential Career Path
+              <span class="text-danger">With A Quiz</span>
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+              laudantium est molestias tempore possimus doloribus recusandae
+              aliquid placeat tempora, commodi, fugit unde ut dolore non dolorum
+              necessitatibus. Inventore, recusandae corrupti!
+            </p>
+            <h4 class="bg-dark">-</h4>
+            <div class="bottom-div shadow">
+              <p class="text-center fw-bold p-3">MR MANAN</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+      <footer class="footer-section">
+        <div class="container">
+          <div class="footer-cta pt-5 pb-5">
+            <div class="row">
+              <div class="col-xl-4 col-md-4 mb-30">
+                <div class="single-cta">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div class="cta-text">
+                    <h4>Find us</h4>
+                    <span>Mohalla islampura,Noori Street Depalpur</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                <div class="single-cta">
+                  <i class="fas fa-phone"></i>
+                  <div class="cta-text">
+                    <h4>Call us</h4>
+                    <span>+923057935657</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                <div class="single-cta">
+                  <i class="far fa-envelope-open"></i>
+                  <div class="cta-text">
+                    <h4>Mail us</h4>
+                    <span>itxmaani@outlook.com</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-content pt-5 pb-5">
+            <div class="row">
+              <div class="col-xl-4 col-lg-4 mb-50">
+                <div class="footer-widget">
+                  <div class="footer-logo">
+                    <a href="index.html"
+                      ><img
+                        src="https://i.ibb.co/QDy827D/ak-logo.png"
+                        class="img-fluid"
+                        alt="logo"
+                    /></a>
+                  </div>
+                  <div class="footer-text">
+                    <p>
+                      Lorem ipsum dolor sit amet, consec tetur adipisicing elit,
+                      sed do eiusmod tempor incididuntut consec tetur
+                      adipisicing elit,Lorem ipsum dolor sit amet.
+                    </p>
+                  </div>
+                  <div class="footer-social-icon">
+                    <span>Follow us</span>
+                    <a href="#"
+                      ><i class="fab fa-facebook-f facebook-bg"></i
+                    ></a>
+                    <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                    <a href="#"
+                      ><i class="fab fa-google-plus-g google-bg"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div class="footer-widget">
+                  <div class="footer-widget-heading">
+                    <h3>Useful Links</h3>
+                  </div>
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#" class="text-white">portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#" class="text-white">About us</a></li>
+                    <li><a href="#" class="text-white">Our Services</a></li>
+                    <li><a href="#" class="text-white">Expert Team</a></li>
+                    <li><a href="#" class="text-white">Contact us</a></li>
+                    <li><a href="#" class="text-white">Latest News</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                <div class="footer-widget">
+                  <div class="footer-widget-heading">
+                    <h3 class="">Subscribe</h3>
+                  </div>
+                  <div class="footer-text mb-25">
+                    <p class="text-white">
+                      Don’t miss to subscribe to our new feeds, kindly fill the
+                      form below.
+                    </p>
+                  </div>
+                  <div class="subscribe-form">
+                    <form action="#">
+                      <input type="text" placeholder="Email Address" />
+                      <button><i class="fab fa-telegram-plane"></i></button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                <div class="copyright-text">
+                  <p class="text-white">
+                    Copyright &copy; 2022, All Right Reserved
+                    <a href="https://codepen.io/anupkumar92/">Mr Manan</a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                <div class="footer-menu">
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Policy</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
